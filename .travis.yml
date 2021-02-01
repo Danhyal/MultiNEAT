@@ -18,6 +18,7 @@ env: # Don't forget to pass env to docker in run_in_docker.sh
   - CONDA_PY=27
   - CONDA_PY=35
   - CONDA_PY=36
+  - CONDA_PY=39
 
 script:
   ./travis/main.sh
